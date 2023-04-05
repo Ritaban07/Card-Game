@@ -61,12 +61,5 @@ I have provide unit tests for my solution to ensure that it works correctly and 
 
 - Test that the deck is shuffled randomly.
 
-- Test that each player has 5 cards in their hand after dealing.
+- Test that each player can add or remove a card or not.
 
-- Test that the top card of the discard pile matches the top card of the deck after dealing.
-
-- Test that a player can only play a card that matches either the suit or the rank of the top card on the discard pile.
-
-- Test that a player must draw a card from the draw pile if they cannot play a card.
-
-- Test that an action card correctly performs its corresponding action.
