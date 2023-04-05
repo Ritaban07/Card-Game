@@ -30,9 +30,12 @@ public class DeckTest {
 
 
     }
-
-
-
+    @Test
+    public void testDeckContains52Cards() {
+        Deck deck = new Deck();
+        ArrayList<Card> cards=deck.getDeck();
+        Assert.assertEquals(52, cards.size());       // To check no of cards are 52 or not.
+    }
 
 
 
